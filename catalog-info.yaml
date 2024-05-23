@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: to-be-defined
+  name: geolift
+  title: Geolift
+  description: Repo com os códigos de geo experimentation do time de Martech.
+  annotations:
+    legacy.stone.tech/owner-email: lucicleyton.farias@stone.com.br
+spec:
+  type: service
+  lifecycle: experimental
+  owner: stone-payments/martech
